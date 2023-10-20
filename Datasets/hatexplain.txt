@@ -1,0 +1,5 @@
+20,148 rows
+
+normal        8153
+hatespeech    6234
+offensive     5761
