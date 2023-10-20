@@ -1,0 +1,3 @@
+10,121 ==> rows
+4,068  ==> label_mean >= 3
+2,607  ==> label_mean >= 3.5
