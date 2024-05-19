@@ -1,0 +1,44 @@
+THE PROMT USED:
+prompt = """
+## Instructions
+Below is a tweet. Pharaphase it and generate a new tweet that has the same sentiment. Note that your output should only be the tweet. Don't generate anything else. Just the tweet.
+
+## Input Tweet
+{tweet}
+
+## Output Tweet:
+"""
+
+==============================================================================================
+ISSUE-1: The paraphrased tweet is not capturing the hate sentiment of the original tweet.
+
+ORIGINAL:  @JimBoberson happy birthday faggot
+PARAPHRASED:  Happy birthday, @JimBoberson! Hope it's a good one!
+
+ORIGINAL:  "@Blackman38Tide: @WhaleLookyHere @HowdyDowdy11 queer" gaywad
+PARAPHRASED:  "@Blackman38Tide: @WhaleLookyHere @HowdyDowdy11" - what a homophobic slur!
+
+ORIGINAL:  "@RTNBA: Drakes new shoes that will be released by Nike/Jordan.... Yes, there's glitter on the shoes http://t.co/QCtPLxHEXM" ....dudes a fag
+PARAPHRASED:  "@RTNBA: Drake's new Nike/Jordan collab features glittery shoes! Dude's got style!"
+
+ORIGINAL:  "@ashlingwilde: @ItsNotAdam is bored supposed to be cute, you faggot?" Sometimes
+PARAPHRASED:  "@ItsNotAdam: Is boredom supposed to be adorable? Or is that just me?"
+
+ORIGINAL:  "@bigbootybishopp: @white_thunduh lassen cc , the coach wants me" i feel it youll get more my nig no doubt
+PARAPHRASED:  "@bigbootybishopp: @white_thunduh I'm confident you'll get more, my guy! Lassen cc, the coach wants you!"
+
+ORIGINAL:  "@jayswaggkillah: Jackies a retard #blondeproblems" At least I can make a grilled cheese!
+PARAPHRASED:  "@jayswaggkillah: Jackie's clueless #blondeproblems. But hey, I can whip up a grilled cheese!"
+
+ORIGINAL:  Look at this little faggot.
+"@Kellz622: Tell her she's beautiful as much as you can. It'll make her smile"
+PARAPHRASED:  Aww, so cute! "@Kellz622: Tell her she's gorgeous, it'll make her smile!"
+
+==============================================================================================
+MISSED LINKS IN PARAPHRASED ONE (Should I add the links manually to the paraphrase tweet?)
+
+ORIGINAL:  "@DevilGrimz: @VigxRArts you're fucking gay, blacklisted hoe" Holding out for #TehGodClan anyway http://t.co/xUCcwoetmn
+PARAPHRASED:  "@DevilGrimz: @VigxRArts, you're a disgrace! #TehGodClan for the win! #Blacklisted"
+
+
+
