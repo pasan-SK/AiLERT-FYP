@@ -1,6 +1,40 @@
 # AiLERT-FYP
-Final Year Project Repository
+# Unmasking Hate: An Integrated Approach to Detecting Hate Speech in Social Media
 
-The project, "Unmasking Hate: An Integrated Approach to Detecting Hate Speech in Social Media," aims to develop a comprehensive method for identifying hate speech on social media platforms. We believe that hate speech is a serious problem that can have harmful effects on individuals and society as a whole. By developing a system that can accurately identify instances of hate speech, we hope to promote a safer and more inclusive online environment. To achieve this goal, we plan to use a combination of natural language processing techniques and machine learning algorithms. We will collect a dataset of social media posts that have been manually labeled as either hate speech or non-hate speech. We will then preprocess the data to remove noise and irrelevant information.
+## Overview
 
-The proposed methodology aims to enhance the existing Dual Contrastive Learning (DCL) framework for hate speech detection. It involves several key steps. First, the baseline DCL framework optimizes self-supervised and supervised contrastive learning losses, capturing span-level information for detecting abusive speech. This process includes using pre-trained BERT embeddings, data augmentation, and dual contrastive learning mechanisms. The DCL model is enhanced by incorporating fine-tuned BERT-based models (like BertTweet). These models improve the DCL architecture's ability to understand the context of hate speech within specific datasets. The classifier component is further enhanced through emotion modeling using DistilBERT to assign scores to eight different emotions, creating an Emotion vector. Additionally, author profiling is introduced by constructing a graph of tweet authors and applying node2vec to generate embeddings for a nuanced understanding of authors' roles in the Twitter network. The final framework combines these components, resulting in an overall enhanced framework for hate speech detection. This comprehensive approach leverages both semantic and label-based information, addressing data imbalance challenges and improving the model's performance in identifying hate speech.
+"Unmasking Hate: An Integrated Approach to Detecting Hate Speech in Social Media" aims to develop a comprehensive method for identifying hate speech on social media platforms. Hate speech is a serious problem that can have harmful effects on individuals and society. By developing a system that can accurately identify instances of hate speech, we hope to promote a safer and more inclusive online environment.
+
+## Objectives
+
+- **Enhance Hate Speech Detection Performance: Improve hate speech detection using the DCL framework by using fine-tuned embeddings for context-aware accuracy.
+- **Incorporate Emotion Modeling: Integrate emotional context recognition into DCL framework to further improve the hate speech detection accuracy.
+- **Incorporate Author Profiling: Implement author profiling to better understand user interactions and context using personality detection and user features to further improve the DCL framework.
+- **Implement a Scalable Technology Platform: Transform AI algorithm into a practical, cloud-deployable technology platform for widespread use in combating hate speech online.Deployed in [Huggingface spaces]([url](https://huggingface.co/spaces/Thushalya/AiLERT)) 
+
+
+## Methodology
+
+Our approach combines natural language processing techniques and machine learning algorithms to create a robust hate speech detection system. The methodology is divided into several key steps:
+
+### 1. Data Collection and Preprocessing
+
+- **Dataset**: Collect a dataset(hateval, davidson, unified) of social media posts manually labeled as hate speech or non-hate speech.
+- **Preprocessing**: Remove noise and irrelevant information from the data.
+
+### 2. Dual Contrastive Learning (DCL) Framework
+
+Enhance the existing DCL framework for hate speech detection through the following steps:
+
+- **Utilize self-supervised and supervised contrastive learning losses**: Capture span-level information for detecting Hate speech using pre-trained BERT embeddings, data augmentation, and dual contrastive learning mechanisms.
+- **Enhance DCL with fine-tuned BERT-based models**: Incorporate models like BertTweet to improve the DCL architecture's ability to understand the context of hate speech within specific datasets.
+- **Emotion Modeling** : Incorporate the scores of eleven different emotions to create an Emotion vector, which improves the classifier component.
+
+- **Author Profiling** : Developing author profiling involves employing personality detection and user features to enhance the DCL framework, aiming to better grasp user interactions and context.
+
+### Overall Framework
+![overall1](https://github.com/user-attachments/assets/138d5598-9b76-4cd3-9c54-9f61c131be04)
+
+- **Combine components**: The final framework combines the enhanced DCL model, emotion modeling, and author profiling to create a robust system for hate speech detection.
+![overall2](https://github.com/user-attachments/assets/ae1662c0-d707-42d4-a495-bd1112b471c5)
+
