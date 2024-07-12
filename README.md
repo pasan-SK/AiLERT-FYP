@@ -42,5 +42,5 @@ Enhance the existing DCL framework for hate speech detection through the followi
 
 The datasets that were used in our experiments are here.[All_Datasets](https://huggingface.co/krishan-CSE)
 
-you can watch full video using this [youtube link]([url](https://youtu.be/A6JjaFI_6QQ))
+you can watch full video using this [link]([url](https://youtu.be/A6JjaFI_6QQ))
 
