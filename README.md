@@ -33,8 +33,10 @@ Enhance the existing DCL framework for hate speech detection through the followi
 - **Author Profiling** : Developing author profiling involves employing personality detection and user features to enhance the DCL framework, aiming to better grasp user interactions and context.
 
 ### Overall Framework
+
 ![overall1](https://github.com/user-attachments/assets/138d5598-9b76-4cd3-9c54-9f61c131be04)
 
 - **Combine components**: The final framework combines the enhanced DCL model, emotion modeling, and author profiling to create a robust system for hate speech detection.
+  
 ![overall2](https://github.com/user-attachments/assets/ae1662c0-d707-42d4-a495-bd1112b471c5)
 
